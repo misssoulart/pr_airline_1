@@ -11,7 +11,7 @@ import java.io.Serializable;
 @Setter
 @Table(name = "Aircraft")
 public class Aircraft implements Serializable {
-    //Характеристики: id, бортовой номер, марка, модель, год выпуска, конфигурация салона (места), дальность полёта.
+    //Характеристики: id, бортовой номер, марка, модель,
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
